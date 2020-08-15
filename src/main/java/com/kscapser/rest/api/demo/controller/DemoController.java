@@ -1,6 +1,6 @@
 package com.kscapser.rest.api.demo.controller;
 
-import com.kscapser.rest.api.demo.service.IDemoService;
+import com.kscapser.rest.api.demo.services.DemoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api/v1/demo", produces = MediaType.APPLICATION_JSON_VALUE)
 public class DemoController {
 
-    private final IDemoService demoService;
+    private final DemoService demoService;
 
     @Autowired
-    public DemoController(IDemoService demoService) {
+    public DemoController(DemoService demoService) {
         this.demoService = demoService;
     }
 

@@ -1,9 +1,10 @@
-package com.kscapser.rest.api.demo.service;
+package com.kscapser.rest.api.demo.services.impl;
 
+import com.kscapser.rest.api.demo.services.DemoService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DemoService implements IDemoService{
+public class DemoServiceImpl implements DemoService {
     /**
      * Method to say hello
      *

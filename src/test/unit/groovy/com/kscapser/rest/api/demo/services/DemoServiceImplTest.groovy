@@ -1,14 +1,15 @@
-package com.kscapser.rest.api.demo.service
+package com.kscapser.rest.api.demo.services
 
+import com.kscapser.rest.api.demo.service.impl.DemoServiceImpl
 import spock.lang.Specification
 
 
-class DemoServiceTest extends Specification {
+class DemoServiceImplTest extends Specification {
 
-    IDemoService demoService
+    DemoService demoService
 
     def setup(){
-        demoService = new DemoService()
+        demoService = new DemoServiceImpl()
     }
 
     def "when demoService is loaded then all expected beans are created"() {

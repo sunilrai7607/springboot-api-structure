@@ -89,7 +89,7 @@ jacocoTestCoverageVerification {
 				//The following configuration will enforce that 100% of the lines are executed during tests
 				counter = 'LINE'
 				value = 'COVEREDRATIO'
-				minimum = 0.3
+				minimum = 0.8
 			}
 		}
 	}

@@ -1,6 +1,6 @@
-package com.kscapser.rest.api.demo.service;
+package com.kscapser.rest.api.demo.services;
 
-public interface IDemoService {
+public interface DemoService {
     /**
      * Method to say hello
      * @return
